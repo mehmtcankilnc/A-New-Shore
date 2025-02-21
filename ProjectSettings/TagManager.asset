@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Fence
+  - Slot
+  - Customer
+  - Stall
+  - Equipable
+  - ShopItem
+  - TableItem
+  - Door
+  - Bed
+  - TalkingNpc
+  - Elevator
+  - Head-Man
+  - Water
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Obstacles
+  - ClimbLedge
+  - Pushables
+  - Wood
+  - Equipable
+  - Path
+  - PlayerVisual
+  - Barrier
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

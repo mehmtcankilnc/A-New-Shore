@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba1de268b9560f47bc76ecbaec24ef9, type: 3}
+  m_Name: FirstNpcQuest
+  m_EditorClassIdentifier: 
+  initialDialog:
+  - "Ah, here\u2019s our new worker\u2026 \nGood to see you. \nEver since you set
+    foot in this village, everyone\u2019s been talking about you."
+  - "They say you survived a shipwreck. \nBut when I heard your story, I couldn\u2019t
+    help but wonder."
+  - "I couldn't stop thinking about how did you manage to survive with such a small
+    boat and limited supplies? \nPeople here in this village know a thing or two
+    about survival, but your story... it\u2019s curious."
+  - "I hope you're as hardworking as you are mysterious. \nWe gave you a job at the
+    market. Meet our expectations, help the villagers. \nAnd remember, if anything
+    happens, I won\u2019t hesitate to go to the Headman. \nNow, off you go. Do your
+    work. We\u2019ll be watching."
+  dialogAudioClips:
+  - {fileID: 8300000, guid: f8a70ff1afe172b4b807947612d66395, type: 3}
+  - {fileID: 8300000, guid: 5da58b078c8f9034982101db898344a7, type: 3}
+  - {fileID: 8300000, guid: 479452c145fbcaa4fb97968bc729469e, type: 3}
+  - {fileID: 8300000, guid: b808a5926dd62c4439fc8b0ac4683a3b, type: 3}
+  acceptOption: Accept
+  comebackInProgress: You need to work more and more, still need some levels.
+  comebackInProgressAudioClip: {fileID: 8300000, guid: 94b1986ddcfbb58489602b4c3bbf075f,
+    type: 3}
+  comebackCompleted: 'I really appreciated what you have done with the market stuff.
+
+    Everyone
+    is so grateful to you.
+
+    Here is your reward!'
+  comebackCompletedAudioClip: {fileID: 8300000, guid: 4bbe38049f092f74391115e58828638d,
+    type: 3}
+  finalWords: 
+  coinReward: 300
+  rewardItem: Axe
+  firstRequirementItem: level
+  firstRequirementAmount: 3

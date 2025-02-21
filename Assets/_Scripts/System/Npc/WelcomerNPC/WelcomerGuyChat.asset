@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 895697fa4d172524aa09492389ec2e70, type: 3}
+  m_Name: WelcomerGuyChat
+  m_EditorClassIdentifier: 
+  npcTexts:
+  - "Hey there! \nWho are you? Where did you come from? \nThat boat of yours looks
+    like it\u2019s seen better days."
+  - "A shipwreck? Poor soul! Are you hungry? \nLet me get you some water or food."
+  - "So, what is it that you do? \nYou can\u2019t survive here on your own. Do you
+    need help?"
+  - "Hmm... Alright. \nWe could use some help at the market. You\u2019ll deliver
+    customers' orders. \nBut remember, honesty is vital in this village. I\u2019ll
+    be keeping an eye on you."
+  npcAudioClips:
+  - {fileID: 8300000, guid: c2d26a52efefdfe45a57c02428b6a6c6, type: 3}
+  - {fileID: 8300000, guid: a9e94a1bef33c5d43b78c99883c6813f, type: 3}
+  - {fileID: 8300000, guid: c609b8af0b215a44894d31ec112ea574, type: 3}
+  - {fileID: 8300000, guid: ba2b58cb5ff90694e976d835ff02ce29, type: 3}
+  playerTexts:
+  - "Ah... Please, help me. \nI survived a shipwreck. Everyone else... they\u2019re
+    gone. \nI\u2019m the only one left. I\u2019ve been drifting for days."
+  - "Yes, please... \nI\u2019m starving. I haven\u2019t eaten in days. I would be
+    so grateful."
+  - "Actually... yes. I want to start over. \nIf you can give me a job, I promise
+    I\u2019ll be useful to your village. I\u2019ll work hard, I swear!"
+  - "Thank you! I won\u2019t let you down."
+  playerAudioClips:
+  - {fileID: 8300000, guid: 07aefd89e9d148049bc57c09c895db3a, type: 3}
+  - {fileID: 8300000, guid: 2b3cfa9af65becd4bb20ba87aa1af8df, type: 3}
+  - {fileID: 8300000, guid: 1522b4d04dcf0a6439f0160a5380bba2, type: 3}
+  - {fileID: 8300000, guid: 0848c684d9bed15498d84c9a53d0b0fe, type: 3}
+  comebackChat: 'Oh, you''re still around. By now, I thought you would run away.
+
+    You
+    look tired, I forgot to mention that the job I gave you is exhausting, right?
+
+    You
+    better keep working if you wanna stay here!'
+  comebackAudioClip: {fileID: 8300000, guid: c5832f4eb61ddcf44b113e18329bf3b4, type: 3}
